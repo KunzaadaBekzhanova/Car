@@ -8,6 +8,10 @@ public class Main {
     try (Car car = new Car()) {
         car.drive();
 
+    }catch (RuntimeException exception){
+
+    }catch (StackOverflowError error){
+
     }
 
     }
